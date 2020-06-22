@@ -1,0 +1,26 @@
+class A:
+  
+
+  def __init__(self):
+    self.a=1
+
+  def createnodes():
+    arr=[]
+    count=0
+    while(count<4):
+      ob=A()
+      arr.append(ob)
+      count=count+1
+    return arr
+
+count=0
+list=A.createnodes()
+while(count<4):
+  print(list[count].a)
+  count=count+1
+  
+
+
+
+    
+
