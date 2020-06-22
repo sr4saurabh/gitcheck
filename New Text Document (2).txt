@@ -1,0 +1,26 @@
+class Hub:
+        name=" "
+        No_of_drone_present=0
+        Source_name=" "
+        Dest_name=" "
+        Supplies=[]
+        Supplies_status=0
+        Order_dist=0
+        Order_mass=0
+        
+        def __init__(self):
+            self.name=" "
+            self.No_of_drone_present=6
+            self.Source_name=" "
+            self.Dest_name=" "
+            self.Supplies=[]
+            self.Supplies_status=0
+            self.Order_dist=0
+		
+        
+        
+main():
+    hub1=Hub()
+    hub2=Hub()
+    hub3=Hub()
+    
